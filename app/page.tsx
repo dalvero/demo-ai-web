@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { predictImage, PredictionResult } from "@/lib/inference";
+import { predictImageMock as predictImage, PredictionResult } from "@/lib/predict.mock";
 
 type JawType = "upper" | "lower";
 
